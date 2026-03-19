@@ -311,31 +311,13 @@ section.relative {
     width: 100%;
     overflow-x: hidden;
   }
-
+@media (max-width: 768px) {
   body {
-    font-size: 4vw !important;
+    transform: scale(0.42);
+    transform-origin: top left;
+    width: 240%;
   }
-
-  .wrip-text {
-    font-size: 8vw !important;
-  }
-
-  .small, .small2 {
-    font-size: 4vw !important;
-  }
-
-  img {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  * {
-    position: static !important;
-  }
-
-  div, section, header {
-    width: 100% !important;
-  }
-
+}
+ 
 }
 </style>
