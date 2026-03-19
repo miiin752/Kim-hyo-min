@@ -305,37 +305,38 @@ section.relative {
 }
 @media (max-width: 768px) {
 
-  .wrip-text {
-    font-size: 8vw !important;
+  /* 전체 구조 리셋 */
+  * {
+    position: static !important;
+    width: auto !important;
+    height: auto !important;
+    left: auto !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    text-align: center;
   }
 
-  .small {
-    font-size: 4vw !important;
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
   }
 
-  .c1, .c2, .c3, .c4,
-  .g1, .g2,
-  .makeup-img,
-  .question-img,
-  .question2-img {
-    max-width: 70vw !important;
-    height: auto;
+  img {
+    max-width: 90vw !important;
+    height: auto !important;
     display: block;
     margin: 10px auto;
   }
-  img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 
-* {
-  box-sizing: border-box;
-}
+  .wrip-text {
+    font-size: 9vw !important;
+  }
 
-body {
-  overflow-x: hidden;
-}
+  .small {
+    font-size: 4.5vw !important;
+  }
 
 }
 </style>
