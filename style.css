@@ -353,11 +353,29 @@ section.relative {
     padding: 10px;
   }
 }
-
 @media (max-width: 768px) {
-  body {
-    background: yellow !important;
+
+  .top-nav .menu a,
+  .solution,
+  .wrip-text,
+  .small,
+  .small2 {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    .question-img,
+  .question2-img,
+  .makeup-img,
+  .c1,
+  .c2,
+  .c3 {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    width: 90% !important;
+    margin: 10px auto;
+    display: block;
   }
+
 }
 
 </style>
