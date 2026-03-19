@@ -321,21 +321,5 @@ section.relative {
     width: 265%;
   }
 }
-  @media (max-width: 768px) {
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .wrip-text {
-    font-size: 8vw !important;
-  }
-
-  .solution {
-    font-size: 10vw !important;
-  }
-
-}
-
+  
 </style>
