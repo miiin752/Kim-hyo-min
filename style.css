@@ -305,7 +305,6 @@ section.relative {
 
 @media (max-width: 768px) {
 
-  /* 전체 글씨 축소 */
   .solution {
     font-size: 36px !important;
   }
@@ -328,8 +327,6 @@ section.relative {
     top: auto !important;
     width: 90% !important;
   }
-
-  /* 이미지 강제 반응형 */
   img {
     max-width: 100% !important;
     height: auto !important;
@@ -355,20 +352,15 @@ section.relative {
 }
 @media (max-width: 768px) {
 
-  .top-nav .menu a,
-  .solution,
-  .wrip-text,
-  .small,
-  .small2 {
-    font-size: 16px !important;
-    line-height: 1.4 !important;
-    .question-img,
+  .question-img,
   .question2-img,
   .makeup-img,
   .c1,
   .c2,
-  .c3 {
-    position: relative !important;
+  .c3,
+  .c4,
+  .small2 {
+    position: static !important;
     left: auto !important;
     top: auto !important;
     width: 90% !important;
@@ -376,6 +368,17 @@ section.relative {
     display: block;
   }
 
+  .wrip-text {
+    font-size: 32px !important;
+    left: auto !important;
+    top: auto !important;
+    position: static !important;
+  }
+
+  .small {
+    font-size: 14px !important;
+    position: static !important;
+  }
 }
 
 </style>
