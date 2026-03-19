@@ -357,3 +357,35 @@ section.relative {
     padding: 10px;
   }
 }
+{
+
+  .question-img,
+  .question2-img {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: 60% !important;
+    height: auto !important;
+
+    display: block;
+    margin: 20px auto;
+  }
+
+  .small,
+  .wrip-text,
+  .small2 {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: 90% !important;
+    margin: 10px auto;
+  }
+
+}
+</style>
