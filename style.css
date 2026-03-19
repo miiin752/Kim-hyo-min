@@ -313,11 +313,10 @@ section.relative {
   }
 @media (max-width: 768px) {
   body {
-    transform: scale(0.42);
+    transform: scale(0.38);
     transform-origin: top left;
-    width: 240%;
+    width: 265%;
   }
 }
- 
-}
+
 </style>
