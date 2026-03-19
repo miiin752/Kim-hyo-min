@@ -303,44 +303,4 @@ section.relative {
 
   footer {color: white;}
 
-@media (max-width: 768px) {
-
-  html, body {
-    width: 100% !important;
-    overflow-x: hidden !important;
-  }
-
-  img {
-    width: 35vw !important;
-    max-width: 35vw !important;
-    height: auto !important;
-    display: block !important;
-    margin: 10px auto !important;
-  }
-
-  .c1, .c2, .c3, .c4,
-  .g1, .g2,
-  .makeup-img,
-  .question-img,
-  .question2-img {
-    width: 35vw !important;
-    max-width: 35vw !important;
-    height: auto !important;
-    display: block !important;
-    margin: 10px auto !important;
-  }
-
-  .wrip-text {
-    font-size: 10vw !important;
-    left: 20px !important;
-    top: 200px !important;
-  }
-
-  .small {
-    font-size: 5vw !important;
-    left: 20px !important;
-    top: 320px !important;
-  }
-
-}
 </style>
