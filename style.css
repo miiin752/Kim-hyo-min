@@ -321,5 +321,30 @@ section.relative {
     width: 265%;
   }
 }
+  @media (max-width: 768px) {
+
+  .c1, .c2, .c3, .c4,
+  .g1, .g2,
+  .makeup-img {
+    position: static !important;
+    display: block;
+    margin: 10px auto;
+    max-width: 90%;
+  }
+
+}
+  @media (max-width: 768px) {
+
+  .wrip-text {
+    font-size: 9vw !important;
+    text-align: center;
+  }
+
+  .small {
+    font-size: 4vw !important;
+    text-align: center;
+  }
+
+}
   
 </style>
