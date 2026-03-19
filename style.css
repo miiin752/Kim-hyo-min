@@ -309,8 +309,12 @@ section.relative {
     height: auto !important;
     min-height: auto !important;
   }
-
-  /* 글씨 안전 영역 확보 */
+{
+  .left {
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+  }
+}
   body {
     line-height: 1.4 !important;
     font-size: 14px !important;
