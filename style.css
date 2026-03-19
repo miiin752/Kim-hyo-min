@@ -391,5 +391,15 @@ img {
 body {
   overflow-x: hidden !important;
 }
+.left {
+  display: block !important;
+  max-width: 100% !important;
+
+  white-space: normal !important;   
+  word-break: keep-all;             
+  overflow-wrap: break-word;        
+
+  text-align: left;
+}
   
 </style>
