@@ -317,7 +317,7 @@ section.relative {
 @media (max-width: 768px) {
   body {
     transform: scale(0.38);
-    transform-origin: top left;
+    transform-origin:top center;
     width: 265%;
   }
 }
