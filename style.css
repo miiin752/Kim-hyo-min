@@ -303,23 +303,5 @@ section.relative {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);}
 
   footer {color: white;}
-
-@media (max-width: 768px) {
-
-  * {
-    box-sizing: border-box;
-  }
-
-  html, body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-@media (max-width: 768px) {
-  body {
-    transform: scale(0.38);
-    transform-origin:top center;
-  }
-}
-
   
 </style>
