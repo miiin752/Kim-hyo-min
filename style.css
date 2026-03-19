@@ -305,37 +305,22 @@ section.relative {
 }
 @media (max-width: 768px) {
 
-  * {
-    position: static !important;
-    width: auto !important;
-    height: auto !important;
-    left: auto !important;
-    top: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-    transform: none !important;
-    text-align: center;
-  }
-
-  html, body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
   img {
-    width: 60vw !important;
-    max-width: 60vw !important;
+    width: 40vw !important;
+    max-width: 40vw !important;
     height: auto !important;
-    display: block;
-    margin: 10px auto;
   }
 
-  .wrip-text {
-    font-size: 9vw !important;
-  }
-
-  .small {
-    font-size: 4.5vw !important;
+  .c1, .c2, .c3, .c4,
+  .g1, .g2,
+  .makeup-img,
+  .question-img,
+  .question2-img {
+    width: 40vw !important;
+    max-width: 40vw !important;
+    height: auto !important;
+    display: block !important;
+    margin: 10px auto !important;
   }
 
 }
