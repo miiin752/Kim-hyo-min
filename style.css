@@ -300,5 +300,19 @@ section.relative {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);}
 
   footer {color: white;}
+@media (max-width: 768px) {
+  * {
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #wrap {
+    width: 100%;
+  }
+}
 
 </style>
