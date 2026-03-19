@@ -303,5 +303,26 @@ section.relative {
 
   footer {color: white;}
 }
-  
+@media (max-width: 768px) {
+
+  .wrip-text {
+    font-size: 8vw !important;
+  }
+
+  .small {
+    font-size: 4vw !important;
+  }
+
+  .c1, .c2, .c3, .c4,
+  .g1, .g2,
+  .makeup-img,
+  .question-img,
+  .question2-img {
+    max-width: 70vw !important;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+
+}
 </style>
