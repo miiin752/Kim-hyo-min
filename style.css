@@ -303,4 +303,21 @@ section.relative {
 
   footer {color: white;}
 
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  body {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
 </style>
