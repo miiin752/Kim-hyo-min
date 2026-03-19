@@ -331,7 +331,11 @@ section.relative {
     margin: 20px auto;
     max-width: 90%;
   }
-
+}
+@media (max-width: 768px) {
+  #wrap {
+    transform: scale(0.5);
+  }
 }
   
 </style>
