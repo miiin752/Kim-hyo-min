@@ -74,12 +74,15 @@ background: transparent;
     font-family: 'GmarketSans', sans-serif; font-optical-sizing:auto;
     font-weight:500;
     font-size:16px;
-    background: linear-gradient(
-    to bottom,
+    background:none;}
+
+#wrap {
+  background: linear-gradient(to bottom,
     #ffccd5 0%, 
     #ff597b 60%,  
     #ff0000 85%, 
     #000000 100%);}
+}
 
 .fade-in {
   opacity: 0;
