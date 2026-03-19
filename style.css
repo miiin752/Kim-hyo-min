@@ -379,6 +379,17 @@ section.relative {
     font-size: 14px !important;
     position: static !important;
   }
-}
+  * {
+    position: static !important;
+  }
 
+  img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
 </style>
