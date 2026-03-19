@@ -304,6 +304,22 @@ section.relative {
   footer {color: white;}
 
 @media (max-width: 768px) {
+  section, div {
+    overflow: visible !important;
+    height: auto !important;
+    min-height: auto !important;
+  }
+
+  /* 글씨 안전 영역 확보 */
+  body {
+    line-height: 1.4 !important;
+    font-size: 14px !important;
+  }
+
+  .small, .small2, .wrip-text, .solution {
+    overflow: visible !important;
+    word-break: keep-all !important;
+  }
 
   body {
     font-size: 14px !important;
