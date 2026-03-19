@@ -320,19 +320,6 @@ section.relative {
     transform-origin:top center;
   }
 }
-  @media (max-width: 768px) {
-
-  .c1, .c2, .c3, .c4,
-  .g1, .g2,
-  .makeup-img {
-    position: static !important;
-    display: block;
-    margin: 10px auto;
-    max-width: 90%;
-  }
-
-
-}
 
   
 </style>
