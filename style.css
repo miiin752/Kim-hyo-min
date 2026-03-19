@@ -311,7 +311,33 @@ section.relative {
   }
 
   #wrap {
-    width: 100%;
+    width: 100%;}
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 3.5vw;
+  }
+
+  .top-nav .menu a {
+    font-size: 3.5vw !important;
+    margin-right: 4vw;
+  }
+
+  .solution {
+    font-size: 10vw;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .but {
+    width: 60%;
+  }
+
+  [class*="img"] {
+    position: static !important;
   }
 }
 
