@@ -319,5 +319,19 @@ section.relative {
     padding: 10px;
   }
 }
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    padding: 12px;
+  }
+}
 
 </style>
