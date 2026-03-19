@@ -329,8 +329,8 @@ section.relative {
   }
 
   img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100% !important;
+    height: auto !important;
   }
   .but {
     width: 60%;
@@ -340,5 +340,10 @@ section.relative {
     position: static !important;
   }
 }
+  [class*="g"],
+  [class*="img"] {
+    width: 100% !important;
+    left: 0 !important;
+  }
 
 </style>
