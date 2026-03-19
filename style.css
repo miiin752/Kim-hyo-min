@@ -305,6 +305,10 @@ section.relative {
 
 @media (max-width: 768px) {
 
+  body {
+    font-size: 14px !important;
+  }
+
   .solution {
     font-size: 36px !important;
   }
@@ -313,48 +317,28 @@ section.relative {
     font-size: 48px !important;
     left: 20px !important;
     top: 200px !important;
+    position: absolute !important;
   }
 
   .small {
     font-size: 18px !important;
     left: 20px !important;
     top: 320px !important;
+    position: absolute !important;
   }
 
   .small2 {
     font-size: 16px !important;
-    left: 20px !important;
-    top: auto !important;
     width: 90% !important;
+    margin: 20px auto;
+    position: static !important;
   }
+
   img {
     max-width: 100% !important;
     height: auto !important;
-  }
-
-  .question-img,
-  .question2-img,
-  .makeup-img,
-  .c1,
-  .c2,
-  .c3 {
-    position: relative !important;
-    left: auto !important;
-    top: auto !important;
-    width: 90% !important;
-    margin: 10px auto;
     display: block;
   }
-
-  #wrap {
-    padding: 10px;
-  }
-}
-@media (max-width: 768px) {
-  body {
-    font-size: 12px !important;
-  }
-}{
 
   .question-img,
   .question2-img,
@@ -362,53 +346,14 @@ section.relative {
   .c1,
   .c2,
   .c3,
-  .c4,
-  .small2 {
+  .c4 {
     position: static !important;
-    left: auto !important;
-    top: auto !important;
     width: 90% !important;
-    margin: 10px auto;
+    margin: 20px auto;
     display: block;
   }
 
-  .wrip-text {
-    font-size: 32px !important;
-    left: auto !important;
-    top: auto !important;
-    position: static !important;
-  }
-
-  .small {
-    font-size: 14px !important;
-    position: static !important;
-  }
-  * {
-    position: static !important;
-  }
-
-  img {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  body {
-    font-size: 14px;
-  }
-  .t3 {
-    width: 30% !important;
-    height: auto !important;
-  }
-  .question-img,
-  .question2-img {
-
-    position: static !important;
-    width: 70% !important;
-    height: auto !important;
-    margin-top: 20px;
-
-    display: block;
-    margin: 30px auto;
+  #wrap {
+    padding: 10px;
   }
 }
-</style>
