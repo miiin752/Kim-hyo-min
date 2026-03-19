@@ -345,23 +345,6 @@ section.relative {
   }
 
 }
-  img {
-  max-width: 100%;
-  height: auto;
-}
-  .c1, .c2, .c3, .c4,
-.g1, .g2,
-.makeup-img {
-  max-width: 90vw;
-}
-  .wrip-text {
-  font-size: 8vw;
-  text-align: center;
-}
 
-.small {
-  font-size: 4vw;
-  text-align: center;
-}
   
 </style>
