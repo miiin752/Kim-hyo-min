@@ -391,5 +391,19 @@ section.relative {
   body {
     font-size: 14px;
   }
+  .t2 {
+    font-size: 14px !important;
+    width: 90% !important;
+  }
+  .question-img,
+  .question2-img {
+
+    position: static !important;
+    width: 70% !important;
+    height: auto !important;
+
+    display: block;
+    margin: 20px auto;
+  }
 }
 </style>
