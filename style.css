@@ -309,29 +309,8 @@ section.relative {
     font-size: 14px !important;
   }
 
-  .solution {
-    font-size: 36px !important;
-  }
-
-  .wrip-text {
-    font-size: 48px !important;
-    left: 20px !important;
-    top: 200px !important;
-    position: absolute !important;
-  }
-
-  .small {
-    font-size: 18px !important;
-    left: 20px !important;
-    top: 320px !important;
-    position: absolute !important;
-  }
-
-  .small2 {
-    font-size: 16px !important;
-    width: 90% !important;
-    margin: 20px auto;
-    position: static !important;
+  #wrap {
+    max-width: 100% !important;
   }
 
   img {
@@ -346,37 +325,11 @@ section.relative {
   .c1,
   .c2,
   .c3,
-  .c4 {
-    position: static !important;
-    width: 90% !important;
-    margin: 20px auto;
-    display: block;
-  }
-
-  #wrap {
-    padding: 10px;
-  }
-}
-{
-
-  .question-img,
-  .question2-img {
-    position: relative !important;
-    left: auto !important;
-    top: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-
-    width: 60% !important;
-    height: auto !important;
-
-    display: block;
-    margin: 20px auto;
-  }
-
+  .c4,
   .small,
+  .small2,
   .wrip-text,
-  .small2 {
+  .solution {
     position: relative !important;
     left: auto !important;
     top: auto !important;
@@ -384,8 +337,9 @@ section.relative {
     bottom: auto !important;
 
     width: 90% !important;
-    margin: 10px auto;
+    margin: 10px auto !important;
   }
 
 }
+  
 </style>
