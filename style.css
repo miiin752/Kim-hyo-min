@@ -305,7 +305,6 @@ section.relative {
 }
 @media (max-width: 768px) {
 
-  /* 전체 구조 리셋 */
   * {
     position: static !important;
     width: auto !important;
@@ -324,7 +323,8 @@ section.relative {
   }
 
   img {
-    max-width: 90vw !important;
+    width: 60vw !important;
+    max-width: 60vw !important;
     height: auto !important;
     display: block;
     margin: 10px auto;
