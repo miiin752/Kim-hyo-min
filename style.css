@@ -304,33 +304,53 @@ section.relative {
   footer {color: white;}
 
 @media (max-width: 768px) {
-  img {
-    max-width: 100%;
-    height: auto;
+
+  /* 전체 글씨 축소 */
+  .solution {
+    font-size: 36px !important;
   }
 
-  body {
-    font-size: 16px;
-    margin: 0;
+  .wrip-text {
+    font-size: 48px !important;
+    left: 20px !important;
+    top: 200px !important;
   }
 
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
-}
-@media (max-width: 768px) {
-  html {
-    font-size: 14px;
+  .small {
+    font-size: 18px !important;
+    left: 20px !important;
+    top: 320px !important;
   }
 
+  .small2 {
+    font-size: 16px !important;
+    left: 20px !important;
+    top: auto !important;
+    width: 90% !important;
+  }
+
+  /* 이미지 강제 반응형 */
   img {
     max-width: 100% !important;
     height: auto !important;
   }
 
-  * {
-    box-sizing: border-box;
+  .question-img,
+  .question2-img,
+  .makeup-img,
+  .c1,
+  .c2,
+  .c3 {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    width: 90% !important;
+    margin: 10px auto;
+    display: block;
+  }
+
+  #wrap {
+    padding: 10px;
   }
 }
 
