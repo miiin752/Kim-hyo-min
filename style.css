@@ -323,6 +323,19 @@ section.relative {
     display: block;
     margin: 10px auto;
   }
+  img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
 
 }
 </style>
