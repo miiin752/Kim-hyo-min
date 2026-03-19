@@ -325,12 +325,12 @@ section.relative {
   }
 
   img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100% !important;
+    height: auto !important;
   }
 
-  .container {
-    padding: 12px;
+  * {
+    box-sizing: border-box;
   }
 }
 
