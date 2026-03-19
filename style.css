@@ -375,5 +375,18 @@ section {
 * {
   max-width: 100%;
 }
+html, body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+* {
+  box-sizing: border-box;
+}
   
 </style>
