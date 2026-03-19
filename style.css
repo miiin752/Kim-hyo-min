@@ -401,6 +401,7 @@ section.relative {
     position: static !important;
     width: 70% !important;
     height: auto !important;
+    margin-top: 20px;
 
     display: block;
     margin: 20px auto;
