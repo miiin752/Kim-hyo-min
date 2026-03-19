@@ -391,9 +391,9 @@ section.relative {
   body {
     font-size: 14px;
   }
-  .t2 {
-    font-size: 14px !important;
-    width: 90% !important;
+  .t3 {
+    width: 50% !important;
+    height: auto !important;
   }
   .question-img,
   .question2-img {
