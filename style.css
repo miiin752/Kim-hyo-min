@@ -24,9 +24,9 @@ background: transparent;
   z-index: 1000;}
 
 .top-nav .menu a {
-  color: #fff !important;
-  font-size: 21px !important;
-  font-weight: 700 !important;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 700;
   text-shadow:
     0 0 2px rgba(255, 0, 0, 1),
     0 0 6px rgba(255, 0, 0, 1);
@@ -302,110 +302,6 @@ section.relative {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);}
 
   footer {color: white;}
-
-@media (max-width: 768px) {
-  section, div {
-    overflow: visible !important;
-    height: auto !important;
-    min-height: auto !important;
-  }
-{
-  .left {
-    font-size: 18px !important;
-    line-height: 1.4 !important;
-  }
-}
-  body {
-    line-height: 1.4 !important;
-    font-size: 14px !important;
-  }
-
-  .small, .small2, .wrip-text, .solution {
-    overflow: visible !important;
-    word-break: keep-all !important;
-  }
-
-  body {
-    font-size: 14px !important;
-  }
-
-  #wrap {
-    max-width: 100% !important;
-  }
-
-  img {
-    max-width: 100% !important;
-    height: auto !important;
-    display: block;
-  }
-
-  .question-img,
-  .question2-img,
-  .makeup-img,
-  .c1,
-  .c2,
-  .c3,
-  .c4,
-  .small,
-  .small2,
-  .wrip-text,
-  .solution {
-    position: relative !important;
-    left: auto !important;
-    top: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-
-    width: 90% !important;
-    margin: 10px auto !important;
-  }
-
-}
-p {
-  display: block !important;
-  margin: 0 0 10px 0 !important;
-  line-height: 1.6 !important;
-  word-break: keep-all;
-}
-
-b {
-  font-weight: 700;
-  display: inline;
-}
-section {
-  overflow: visible !important;
-}
-
-* {
-  max-width: 100%;
-}
-html, body {
-  max-width: 100% !important;
-  overflow-x: hidden !important;
-}
-
-img {
-  max-width: 100% !important;
-  height: auto !important;
-}
-
-* {
-  box-sizing: border-box;
-}
-body {
-  overflow-x: hidden !important;
-}
-.left {
-  display: block !important;
-  max-width: 100% !important;
-
-  white-space: normal !important;   
-  word-break: keep-all;             
-  overflow-wrap: break-word;        
-
-  text-align: left;
-}
-
 
   
 </style>
