@@ -505,6 +505,19 @@ section.relative {
     padding: 0 12px !important;
     box-sizing: border-box !important;
   }
+    .question-img,
+  .question2-img {
+    max-width: 140px !important;
+    margin: 40px auto 24px auto !important;
+  }
+
+  header.wrip {
+    margin-bottom: 180px !important;
+  }
+
+  .wrip-text {
+    top: 120px !important;
+  }
 }
   
 </style>
